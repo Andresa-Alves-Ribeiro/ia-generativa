@@ -21,7 +21,7 @@ Extraímos a lista de IDs de usuário a partir do arquivo CSV ('SDW2023.csv'). P
 
 ### Transform
 
-Utilizamos a API do OpenAI GPT-4 para gerar uma mensagem de marketing personalizada para cada usuário. Substituímos o texto "TODO" pela API Key da OpenAI.
+Utilizamos a API do OpenAI GPT-4 para gerar uma mensagem de marketing personalizada para cada usuário. Substituímos o texto "api" pela API Key da OpenAI.
 
 ### Load
 
@@ -34,6 +34,8 @@ Atualizamos a lista de "news" de cada usuário na API com a nova mensagem gerada
 3. Substitua a variável `openai_api_key` pelo sua própria API Key da OpenAI.
 4. Execute o código em um ambiente Python.
 
-## Repositório da API
+## Documentação da API (Swagger)
 
-**Nota:** Certifique-se de estar ciente das políticas de uso da API da OpenAI e da API da Santander Dev Week ao executar este código em um ambiente de produção.
+https://sdw-2023-prd.up.railway.app/swagger-ui.html
+
+Esta API ficará disponível no Railway por um período de tempo limitado, mas este é um código-fonte aberto.
